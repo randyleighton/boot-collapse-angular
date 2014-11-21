@@ -1,9 +1,9 @@
 var app = angular.module('menu', ['ui.bootstrap']);
 
-app.controller('MainCtrl', [function($scope){
+app.controller('MainCtrl', [function($scope) {
   $scope.name = 'Nacho craver';
  
-}])
+}]);
 
 app.controller('DropdownCtrl', [function($scope){
   $scope.items = [
